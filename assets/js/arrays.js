@@ -224,13 +224,13 @@ function mostrarPropiedadesHome(){
 document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('.VentaBTN').forEach((button) => {
         button.addEventListener('click', function () {
-            window.location.href = '../propiedades_venta.html';
+            window.location.href = './propiedades_venta.html';
         });
     });
         
     document.querySelectorAll('.AlquilerBTN').forEach((button) => {
         button.addEventListener('click', function () {
-            window.location.href = '../propiedades_alquiler.html';
+            window.location.href = './propiedades_alquiler.html';
         });
     });
 
